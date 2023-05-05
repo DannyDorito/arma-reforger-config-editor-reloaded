@@ -1,0 +1,54 @@
+{
+	"dedicatedServerId": "",
+	"region": "EU",
+	"gameHostBindAddress": "",
+	"gameHostBindPort": 2001,
+	"gameHostRegisterBindAddress": "",
+	"gameHostRegisterPort": 2001,
+	"adminPassword": "changeme",
+	"game": {
+		"name": "Server Name - Mission Name",
+		"password": "",
+		"scenarioId": "{ECC61978EDCC2B5A}Missions/23_Campaign.conf",
+		"playerCountLimit": 32,
+		"autoJoinable": false,
+		"visible": true,
+		"supportedGameClientTypes": [
+			"PLATFORM_PC",
+			"PLATFORM_XBL"
+		],
+		"gameProperties": {
+			"serverMaxViewDistance": 2500,
+			"serverMinGrassDistance": 50,
+			"networkViewDistance": 1000,
+			"disableThirdPerson": true,
+			"fastValidation": true,
+			"battlEye": true,
+			"VONDisableUI": true,
+			"VONDisableDirectSpeechUI": true,
+			"missionHeader": {
+				"m_iPlayerCount": 40,
+				"m_eEditableGameFlags": 6,
+				"m_eDefaultGameFlags": 6,
+				"other": "values"
+			}
+		},
+		"mods": [
+			{
+				"modId": "59727DAE364DEADB",
+				"name": "WeaponSwitching",
+				"version": "1.0.1"
+			},
+			{
+				"modId": "59727DAE32981C7D",
+				"name": "Explosive Goats beta",
+				"version": "0.5.42"
+			}
+		]
+	},
+	"operating": {
+		"lobbyPlayerSynchronise": true
+	},
+	"a2sQueryEnabled": true,
+	"steamQueryPort": 17777
+}

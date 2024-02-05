@@ -20,7 +20,7 @@
     "react-router-dom": "^6.21.3",
     "react-scripts": "5.0.1",
     "typescript": "^5.3.3",
-    "usehooks-ts": "^2.10.0",
+    "usehooks-ts": "^2.12.1",
     "web-vitals": "^3.5.2"
   },
   "scripts": {
